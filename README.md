@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Order Intake Validation Service
 
 ## Overview
@@ -15,3 +16,6 @@ As a JavaScript/Node.js developer, I utilized GitHub Copilot as an interactive l
 1. **Data Modeling (POCOs):** I used Copilot to translate my typical TypeScript interfaces into C# classes, learning how to properly implement modern C# null-safety (`<Nullable>enable</Nullable>`) and property initialization.
 2. **JSON Serialization:** Instead of my usual `JSON.parse()`, Copilot introduced me to `System.Text.Json`. Notably, it suggested a clever `LenientDateTimeConverter` to prevent the deserializer from crashing on invalid date strings, which allowed my service to catch those strings manually and return the required `INVALID_FORMAT` business error rather than a generic malformed exception.
 3. **xUnit Testing:** I asked Copilot for the C# equivalent of a Jest test suite. It generated standard `[Fact]` and `[Theory]` attributes. When I noticed the tests were masking a date validation error due to how the JSON string was constructed, I was able to manually step in, debug the C# code, and update the DOM traversal to read the last matched property, successfully turning the tests green.
+=======
+# Project22
+>>>>>>> a150eac1b64c4af15df1b5337804afc425b292ec
